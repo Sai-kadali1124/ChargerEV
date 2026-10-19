@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    color-scheme: light;
+  }
+
+  body {
+    background-color: #F8FAFC;
+    color: #0F172A;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+.font-mono,
+.tabular-nums {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif !important;
+  font-variant-numeric: tabular-nums !important;
+}
+
+.leaflet-container {
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  z-index: 10;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 8px !important;
+  border: 1px solid #E2E8F0 !important;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08) !important;
+  padding: 0 !important;
+}
+
+.leaflet-popup-content {
+  margin: 12px 14px !important;
+  line-height: 1.4 !important;
+}
